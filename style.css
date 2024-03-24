@@ -1,0 +1,14 @@
+canvas{
+    border: 2px solid black;
+    margin-top: 50px;
+    animation-name:backlight_sparkling;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backlight_sparkling {
+    0%{box-shadow: 5px 5px 50px 20px blue;}
+    25%{box-shadow: 5px 5px 50px 20px green;}
+    50%{box-shadow: 5px 5px 50px 20px red;}
+    100%{box-shadow: 5px 5px 50px 20px yellow;}
+}
